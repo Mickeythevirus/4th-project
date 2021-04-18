@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+main()
+
+{
+
+int n;
+
+printf("wirte your marks:",n);
+
+scanf("%d",&n);
+
+if(n>=80 && n<=100){printf("grade A");}
+
+else if(n>=60 && n<=79){printf("grade B");}
+
+else if (n>=40 && n<=59){printf("grade C");}
+
+else if (n>=20 && n<=39){printf("grade D");}
+
+else{printf("fail");}
+
+}
